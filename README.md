@@ -1,4 +1,4 @@
-# reverse
+# Reverse
 
 Simple program that receives lines of strings via stdin and writes the string reverted to stdout.
 
