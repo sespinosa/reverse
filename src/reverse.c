@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
     }
     
     char* line;
-    while (line = readLine()) {
+    while ((line = readLine())) {
         line[strcspn(line, "\n")] = 0;
 
         if (verbose_flag) {
